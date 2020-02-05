@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 
 import java.util.*;
 
-@Repository
+//@Repository
 public class InMemoryTimeEntryRepository implements TimeEntryRepository {
 
    public static Long id = 0l;
