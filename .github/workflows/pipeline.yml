@@ -1,4 +1,4 @@
-name: Pal Tracker Pipeline
+name: Pal Tracker Pipelines
 
 on:
   push:
