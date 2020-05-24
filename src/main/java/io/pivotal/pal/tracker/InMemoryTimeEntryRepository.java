@@ -9,7 +9,7 @@ import java.util.*;
 @Repository
 public class InMemoryTimeEntryRepository implements TimeEntryRepository {
 
-    Long id = 0l;
+   public static Long id = 0l;
 
     Map<Long, TimeEntry> data = new HashMap<Long, TimeEntry>();
 
